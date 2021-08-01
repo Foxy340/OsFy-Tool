@@ -727,7 +727,7 @@ sh install o ./install
 Autor del Script: "rajkumardusad"''')
                         time.sleep(10)
                         print(GREEN+"\nInstalando...")
-                        os.system("git clone >>> https://github.com/rajkumardusad/IP-Tracer.git")
+                        os.system("git clone https://github.com/rajkumardusad/IP-Tracer.git")
                         time.sleep(1)
                         clear()
                         print(f"\n{YELLOW}========================")
