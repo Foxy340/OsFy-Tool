@@ -16,4 +16,6 @@ Y listo, dentro tendras todas las tools.
 
 Autores: Osay & Foxy
 
---
+V1.1
+
+
