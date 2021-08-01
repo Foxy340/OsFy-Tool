@@ -4,6 +4,7 @@ print("\nInstalando requerimientos...\n")
 os.system("apt install python3 -y")
 os.system("python3 -m pip install -r requirements.txt")
 os.system("chmod 777 osfy.py")
+from colorama import init, Fore
 GREEN = Fore.GREEN
 RED = Fore.RED
 RESET = Fore.WHITE
