@@ -101,7 +101,7 @@ def opcion1():
                 print(f"{BLUE}[ {PURPLE}2 {BLUE}] {RESET}- {CYAN}SocialSploit")
                 print(f"{BLUE}[ {PURPLE}3 {BLUE}] {RESET}- {CYAN}Predator-Phishing")
                 print(f"{BLUE}[ {PURPLE}4 {BLUE}] {RESET}- {CYAN}Zphisher")
-                print(f"{BLUE}[ {PURPLE}5 {BLUE}] {RESET}- {CYAN}Dark-Phish")
+                print(f"{BLUE}[ {PURPLE}5 {BLUE}] {RESET}- {CYAN}SocialFish")
                 print(f"{BLUE}[ {PURPLE}X {BLUE}] {RESET}- {CYAN}Volver\n")
                 time.sleep(1)
                 p1 = input("Ingrese una opción #>>> ")
@@ -266,33 +266,25 @@ Autor del Script: "htr-tech" ''')
                         print(banner)
                         print(f"{BLUE}--{GREEN}Os{RED}Fy{RESET}-{GREEN}Tool{BLUE}--")
                         print(f"\n========================\n")
-                        print('''Herramienta: "Dark-Phish"
-Está herramienta de Phising es una herramienta muy buena ya que cuenta con 29 páginas de Phising y un customizador.
+                        print('''Herramienta: "SocialFish"
+Está herramienta es una de Phising, es parecida a SocialSploit pero no tan parecida.
 
-COMANDOS TERMUX
-
-apt install python3
-
-apt install curl
-
-apt install php
+COMANDOS
 
 apt install git -y
 
-git clone https://github.com/Cyber-Anonymous/Dark-Phish.git
+apt install python3 -y
 
-pip3 install requests
+git clone https://github.com/UndeadSec/SocialFish
 
-pip3 install wget
+cd SocialFish
 
-cd Dark-Phish
+python3 -m pip install -r requirements.txt
 
-python3 dark-phish.py
-
-Autor del Script: "Cyber-Anonymous"''')
+python3 SocialFish.py''')
                         time.sleep(10)
                         print(GREEN+"\nInstalando...\n")
-                        os.system("git clone https://github.com/Cyber-Anonymous/Dark-Phish.git")
+                        os.system("git clone https://github.com/UndeadSec/SocialFish")
                         time.sleep(1)
                         clear()
                         print(f"\n\n{YELLOW}========================")
