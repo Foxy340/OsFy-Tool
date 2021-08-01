@@ -1,3 +1,5 @@
+#Code by Triway
+
 try:
         import os
         import time
@@ -912,15 +914,6 @@ def opcion4():
                         time.sleep(1)
                         print(GREEN+"Volviendo...")
                         time.sleep(6)
-
-
-
-
-
-
-
-
-
 def opcion5():
         while True:
                 clear()
@@ -1132,11 +1125,6 @@ Autor del Script: "shawarkhanethicalhacker"
                         time.sleep(1)
                         print(GREEN+"Volviendo...")
                         time.sleep(6)
-
-
-
-
-
 def opcion6():
         while True:
                 clear()
@@ -1269,7 +1257,6 @@ Autor del Script: "IAmBlackHacker"''')
                         time.sleep(2)
                         print(GREEN+"\nVolviendo...")
                         time.sleep(2)
-
                 elif b1=="4":
                         clear()
                         print(f"\n\n{YELLOW}========================")
@@ -1308,7 +1295,6 @@ python3 bruter19.py''')
                         time.sleep(2)
                         print(GREEN+"\nVolviendo...")
                         time.sleep(2)
-
                 elif b1=="5":
                         clear()
                         print(f"\n\n{YELLOW}========================")
@@ -1347,10 +1333,6 @@ Autor del Script: "0xfff0800"''')
                         time.sleep(2)
                         print(GREEN+"\nVolviendo...")
                         time.sleep(2)
-
-
-
-                
                 elif b1=="x" or b1=="X":
                         clear()
                         print(f"\n\n{YELLOW}========================")
@@ -1370,8 +1352,6 @@ Autor del Script: "0xfff0800"''')
                         time.sleep(1)
                         print(GREEN+"Volviendo...")
                         time.sleep(6)
-
-
 def downloads():
         try:
                 os.system("apt update")
@@ -1400,7 +1380,6 @@ def downloads():
                 print(f"\n{YELLOW}========================\n")
                 print(f"{GREEN}Has salido. {GREEN}Volviendo...")
                 time.sleep(5)
-
 def opcion7():
         while True:
                 clear()
@@ -1459,16 +1438,6 @@ def opcion7():
                         time.sleep(1)
                         print(GREEN+"Volviendo...")
                         time.sleep(6)
-
-
-
-
-
-
-
-
-
-
 def contactos():
         while True:
                 clear()
@@ -1566,3 +1535,5 @@ def home():
                         print(GREEN+"Volviendo...")
                         time.sleep(6)
 home()
+
+#Code by Triway
