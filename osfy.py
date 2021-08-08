@@ -1,4 +1,3 @@
-#Code by Triway
 
 try:
         import os
@@ -1536,4 +1535,4 @@ def home():
                         time.sleep(6)
 home()
 
-#Code by Triway
+
